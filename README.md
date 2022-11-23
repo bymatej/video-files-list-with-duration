@@ -7,9 +7,22 @@ https://superuser.com/a/1557840
 # Usage 
 List all videos in subfolders - file name and duration
 
+## Venv
+```
+python3 -m venv venv
+```
+
+```
+source venv/bin/activate
+```
+
 ## Requirements
 - `setuptools`
 - `moviepy`
+
+```
+pip install requirements.txt
+```
 
 ## Running the command
 `python getVideoFilesListWithDuration.py --path ~/Movies/ --type .mp4`
