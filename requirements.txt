@@ -1,2 +1,2 @@
-setuptools
-moviepy
+setuptools==65.6.0
+moviepy==1.0.3
